@@ -1,0 +1,19 @@
+{
+  "name": "ryhub",
+  "version": "4.2.0",
+  "description": "69",
+  "author": "Ryan Summerlin",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.0",
+    "mongoose-morgan": "^1.0.8",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

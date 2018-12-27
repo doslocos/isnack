@@ -1,0 +1,10 @@
+#example of a curl 'post' with no data, which is really a get
+
+#                                       (...did you know that)
+
+if [ $# -le 0 ] 
+	then 
+	echo 'specificy filename, i.e. "./get file.py"'
+fi
+
+curl localhost:3000/$1

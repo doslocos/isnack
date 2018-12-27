@@ -1,0 +1,7 @@
+#USAGE: ./post examply.py to see it work. any MIME-type stored as binary in mongo! Retrieve with ./get example.py
+if [ $# -le 0 ] 
+	then 
+	echo 'specificy filename, i.e. "./post file.py"'
+        exit 1
+fi
+curl -d "name=$1" --data-urlencode "data@$PWD/$1" -X POST localhost:3000
